@@ -1,0 +1,11 @@
+{
+  "parent" : "item/generated",
+  "textures": {
+
+    "layer0": "bettergatemod:item/new_item"
+  }
+
+
+
+}
+
