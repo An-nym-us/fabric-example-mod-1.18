@@ -3,6 +3,10 @@ package net.fabricmc.bettergate;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.bettergate.items.NewItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -20,6 +24,7 @@ public class Main implements ModInitializer {
 
 	// Create a ist fo new items!
 	public static final Item NEW_ITEM = new NewItem(new FabricItemSettings().group(ItemGroup.MISC));
+	public static  final Block MY_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
 
 
 
@@ -33,7 +38,9 @@ public class Main implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 
-		//Must resgiester each new item below
-		Registry.register(Registry.ITEM, new Identifier( "bettergatemod", "new_item"), NEW_ITEM);
+		//Must regiester each new item below
+		Registry.register(Registry.BLOCK, new Identifier("bettergatemod", "My_New_Block"), MY_BLOCK);
+		Registry.register(Registry.ITEM, new Identifier( "bettergatemod", "new_item"), new BlockItem(MY_BLOCK,new FabricItemSettings().group(ItemGroup.MISC)));
+
 	}
 }

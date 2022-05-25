@@ -1,6 +1,10 @@
 package net.fabricmc.bettergate.items;
+import com.ibm.icu.impl.coll.UVector64;
+import net.minecraft.block.Block;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+
+
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Hand;
@@ -15,6 +19,8 @@ public class NewItem extends Item {
         super(settings);
     }
 
+
+
     @Override
     public TypedActionResult<ItemStack> use (World world, PlayerEntity playerEntity, Hand hand)
     {
@@ -23,6 +29,8 @@ public class NewItem extends Item {
 
         return TypedActionResult.success(playerEntity.getStackInHand(hand));
     }
+
+
 
 
 }
