@@ -1,6 +1,7 @@
 package net.fabricmc.bettergate;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.bettergate.items.MyNewBlock;
 import net.fabricmc.bettergate.items.NewItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -24,7 +25,7 @@ public class Main implements ModInitializer {
 
 	// Create a ist fo new items!
 	public static final Item NEW_ITEM = new NewItem(new FabricItemSettings().group(ItemGroup.MISC));
-	public static  final Block MY_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+	public static  final Block MY_BLOCK = new MyNewBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
 
 
 
@@ -39,8 +40,12 @@ public class Main implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		//Must regiester each new item below
-		Registry.register(Registry.BLOCK, new Identifier("bettergatemod", "My_New_Block"), MY_BLOCK);
-		Registry.register(Registry.ITEM, new Identifier( "bettergatemod", "new_item"), new BlockItem(MY_BLOCK,new FabricItemSettings().group(ItemGroup.MISC)));
 
+		Registry.register(Registry.ITEM, new Identifier( "bettergatemod", "new_item"), NEW_ITEM);
+
+		// This will Create the block as a block world block
+		Registry.register(Registry.BLOCK, new Identifier("bettergatemod", "my_new_block"), MY_BLOCK);
+		// This will create a item that represents the block so that the block can be placed inside the game world and used in your inventory. Both go hand & hand.
+		Registry.register(Registry.ITEM, new Identifier( "bettergatemod", "my_new_block"), new BlockItem(MY_BLOCK,new FabricItemSettings().group(ItemGroup.MISC)));
 	}
 }

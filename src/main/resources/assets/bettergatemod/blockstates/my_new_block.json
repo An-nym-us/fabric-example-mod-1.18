@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "bettergatemod:block/my_new_block" }
+  }
+}

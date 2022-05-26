@@ -1,0 +1,52 @@
+{
+
+  "credit": "Made with Blockbench",
+  "textures": {
+    "all": "bettergatemod:block/my_new_block"
+  },
+
+
+
+
+  "elements": [
+    {
+      "from": [1, 0, 1],
+      "to": [15, 1, 15],
+      "color": 1,
+      "faces": {
+        "north": {"uv": [0, 0, 14, 1], "texture": "#missing"},
+        "east": {"uv": [0, 0, 14, 1], "texture": "#missing"},
+        "south": {"uv": [0, 0, 14, 1], "texture": "#missing"},
+        "west": {"uv": [0, 0, 14, 1], "texture": "#missing"},
+        "up": {"uv": [0, 0, 14, 14], "texture": "#missing"},
+        "down": {"uv": [0, 0, 14, 14], "texture": "#missing"}
+      }
+    },
+    {
+      "from": [3, 6, 3],
+      "to": [13, 7, 13],
+      "color": 1,
+      "faces": {
+        "north": {"uv": [0, 0, 10, 1], "texture": "#missing"},
+        "east": {"uv": [0, 0, 10, 1], "texture": "#missing"},
+        "south": {"uv": [0, 0, 10, 1], "texture": "#missing"},
+        "west": {"uv": [0, 0, 10, 1], "texture": "#missing"},
+        "up": {"uv": [0, 0, 10, 10], "texture": "#missing"},
+        "down": {"uv": [0, 0, 10, 10], "texture": "#missing"}
+      }
+    },
+    {
+      "from": [7, 1, 7],
+      "to": [9, 6, 9],
+      "color": 2,
+      "faces": {
+        "north": {"uv": [0, 0, 2, 5], "texture": "#missing"},
+        "east": {"uv": [0, 0, 2, 5], "texture": "#missing"},
+        "south": {"uv": [0, 0, 2, 5], "texture": "#missing"},
+        "west": {"uv": [0, 0, 2, 5], "texture": "#missing"},
+        "up": {"uv": [0, 0, 2, 2], "texture": "#missing"},
+        "down": {"uv": [0, 0, 2, 2], "texture": "#missing"}
+      }
+    }
+  ]
+}
