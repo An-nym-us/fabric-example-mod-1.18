@@ -2,6 +2,7 @@ package net.fabricmc.bettergate;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.bettergate.items.MyNewBlock;
+import net.fabricmc.bettergate.items.MyNewTestBlock;
 import net.fabricmc.bettergate.items.NewItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -26,7 +27,7 @@ public class Main implements ModInitializer {
 	// Create a ist fo new items!
 	public static final Item NEW_ITEM = new NewItem(new FabricItemSettings().group(ItemGroup.MISC));
 	public static  final Block MY_BLOCK = new MyNewBlock(FabricBlockSettings.of(Material.CAKE).strength(4.0f));
-
+	public static  final Block Test_BLOCK = new MyNewTestBlock(FabricBlockSettings.of(Material.CAKE).strength(4.0f));
 
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
@@ -42,7 +43,7 @@ public class Main implements ModInitializer {
 		//Must regiester each new item below
 
 		Registry.register(Registry.ITEM, new Identifier( "bettergatemod", "new_item"), NEW_ITEM);
-
+		Registry.register(Registry.BLOCK, new Identifier("bettergatemod", "mynewtestblock"), Test_BLOCK);
 		// This will Create the block as a block world block
 		Registry.register(Registry.BLOCK, new Identifier("bettergatemod", "my_new_block"), MY_BLOCK);
 		// This will create a item that represents the block so that the block can be placed inside the game world and used in your inventory. Both go hand & hand.
