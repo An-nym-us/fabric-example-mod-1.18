@@ -1,12 +1,6 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description the software that you wrote to demonstrate the Java language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
+This program is a very simple Minecraft mod that was created in such a way to help learn how to integrate Java code into an already perfectly functioning world environment. For this mod, I introduced a simple custom Minecraft block, a model written in a JSON file format, and a second Minecraft item that allows the user to fly around wist right-clicking the item in the player's hand.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
