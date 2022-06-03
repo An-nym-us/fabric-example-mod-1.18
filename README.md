@@ -6,9 +6,9 @@ This program is a very simple Minecraft mod that was created in such a way to he
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+The tools and IDE that was used for this program was the IntelliJ environment and an extremely well-made plugin provided by IntelliJ to help easily integrate the Moojane Minecraft engine into the IntelliJ modding environment. 
 
-{Describe the programming language that you used and any libraries.}
+The libraries that were used were the built-in Mojang libraries and the included libraries provided by IntelliJ for the creation and implementation of the Minecraft Mods
 
 # Useful Websites
 
