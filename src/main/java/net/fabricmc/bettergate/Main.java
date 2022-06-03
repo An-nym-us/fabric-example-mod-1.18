@@ -25,7 +25,7 @@ public class Main implements ModInitializer {
 
 	// Create a ist fo new items!
 	public static final Item NEW_ITEM = new NewItem(new FabricItemSettings().group(ItemGroup.MISC));
-	public static  final Block MY_BLOCK = new MyNewBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+	public static  final Block MY_BLOCK = new MyNewBlock(FabricBlockSettings.of(Material.CAKE).strength(4.0f));
 
 
 
