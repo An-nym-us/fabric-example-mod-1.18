@@ -13,12 +13,12 @@ The libraries that were used were the built-in Mojang libraries and the included
 # Useful Websites
 
 * [Fabric MC](https://fabricmc.net/wiki/doku.php)
-* [Java Net](https://download.java.net/java/early_access/loom/docs/api/)
+* [Java.Net](https://download.java.net/java/early_access/loom/docs/api/)
 * [Gradle Discussion board](https://discuss.gradle.org/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+
+* Implement Multiblock Structures
+* Add block states and instances
+* Multiclass communication with more complex systems 
