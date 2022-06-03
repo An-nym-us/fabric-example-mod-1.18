@@ -8,13 +8,13 @@ This program is a very simple Minecraft mod that was created in such a way to he
 
 The tools and IDE that was used for this program was the IntelliJ environment and an extremely well-made plugin provided by IntelliJ to help easily integrate the Moojane Minecraft engine into the IntelliJ modding environment. 
 
-The libraries that were used were the built-in Mojang libraries and the included libraries provided by IntelliJ for the creation and implementation of the Minecraft Mods
+The libraries that were used were the built-in Mojang libraries and the included libraries provided by IntelliJ for the creation and implementation of the Minecraft Mods. The tool for merging the Minecraft Engine with the custom mod was called the Fabric API library. This allowed me to use their infrastructure to modify the Minecraft Engine Code. Another alternative would have been to use a program calls Source Forge, but their API is much more complicated to learn in a short amount of time.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Fabric MC](https://fabricmc.net/wiki/doku.php)
+* [Java Net](https://download.java.net/java/early_access/loom/docs/api/)
+* [Gradle Discussion board](https://discuss.gradle.org/)
 
 # Future Work
 
