@@ -2,7 +2,7 @@
 
 This program is a very simple Minecraft mod that was created in such a way to help learn how to integrate Java code into an already perfectly functioning world environment. For this mod, I introduced a simple custom Minecraft block, a model written in a JSON file format, and a second Minecraft item that allows the user to fly around wist right-clicking the item in the player's hand.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/30aa8154421f40f099a7337b2e04afab)
 
 # Development Environment
 
